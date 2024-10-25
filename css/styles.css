@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+main {
+    background-color: pink;
+}
+
+.layout {
+    display: grid;
+    padding: 20px;
+}
+
+.layout__section {
+    height: 100px;
+}
+
+.section-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+/* Layout y estilo interior */
+
