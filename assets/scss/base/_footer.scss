@@ -3,15 +3,13 @@
     color: $color-white;
     padding: 40px 0;
     .footer__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         max-width: 1000px;
         margin: 0 auto;
         padding: 0 20px;
         @media (max-width: 768px) {
-            display: inherit;
-            flex-direction: column;
+            grid-template-columns: 1fr;
         }
         .footer__section {
             flex: 1;
@@ -76,3 +74,4 @@
     }
 
 }
+
